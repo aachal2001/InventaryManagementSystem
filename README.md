@@ -50,13 +50,13 @@ It supports CRUD operations on products and inventory stock management.
                          Once started, you should see: Tomcat started on port 8080 and Started InventoryManagementApplication now we can access services.
   
 ## To Test API
-This is project backend url  "http://localhost:8080/product"
+Project API Endpoint  "http://localhost:8080/product"
 @ Following api endpoints :
 1.Save Product - http://localhost:8080/product/register  
 method=POST
 2.Get all  Products - http://localhost:8080/product/get  
 method=GET
-3.Update Products= by id - http://localhost:8080/product/update/{id}
+3.Update Products  by id - http://localhost:8080/product/update/{id}
 method=PUT
 4.Delete Product by id - http://localhost:8080/product/del/{id}
 method=DELETE
@@ -65,6 +65,8 @@ method=POST
 6. DecreaseProduct - http://localhost:8080/product/{id}/decrease 
 method=POST
 7.Get LowStocks - http://localhost:8080/product/products/lowstock
+methos=GET
+8.Get Products  by id - http://localhost:8080/product/{id}
 methos=GET
   
   
