@@ -1,0 +1,7 @@
+com\inventarymanagement\InventaryManagementApplication.class
+com\inventarymanagement\repo\ProductRepo.class
+com\inventarymanagement\service\ProductService.class
+com\inventarymanagement\serviceImpl\ProductServiceImpl.class
+com\inventarymanagement\controller\ProductController.class
+com\inventarymanagement\entity\Product.class
+CustomException\InsufficientStockException.class
